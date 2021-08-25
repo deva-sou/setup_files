@@ -1,0 +1,26 @@
+# Get External IP / Internet Speed
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
+
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/devasou/gDrive/2-Pro/02-LeWagonDS/wagon-bootcamp-319108-0398fe5fc70e.json
+
+#personnal aliases
+alias py='python'
+alias clr='clear'
+alias copypath='pwd|pbcopy'
+
+alias newexo='cd ~/code/deva-sou/data-challenges/ && gst && git pull upstream master -X ours'
+alias exodone="git add . && git commit -m 'exo done' && git push origin master"
+
+alias jnb='jupyter notebook'
+alias jl='jupyter lab'
+alias :t='tree'
+
+
+alias Messenger='open -a Messenger'
+alias Chrome='open -a Google\ Chrome'
+alias vscode='open -a Visual\ Studio\ Code'
+alias Signal='open -a Signal'
+alias Spotify='open -a Spotify'
